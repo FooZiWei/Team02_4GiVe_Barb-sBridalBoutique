@@ -1,0 +1,314 @@
+body{
+    background-color: #E1DCD9;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 100%;
+}
+
+.responsive{
+max-width: 100%;
+height: auto;
+}
+
+.wrapper{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*-------Content 01 BANNER------*/
+.banner{
+        max-width: 80%;
+        left: 0px;
+        top: -10px;
+        position: absolute;
+        z-index:-2;
+        display: block;
+}
+
+.h1{
+    font-family:'DM Serif Display', serif;
+    font-size: 13vw;
+    color: white;
+    position: absolute;
+    top: 40%;
+    align-items: center;
+    z-index:-2;
+}
+
+.h2{
+    font-family:'DM Serif Display', serif;
+    font-size: 20vw;
+    color: white;
+    position: absolute;
+    top: 60%;
+    align-items: center;
+    z-index:-2;
+}
+
+/*-------VIDEO------*/
+.bridalvideo{
+    position: absolute;
+    width: 100%;
+    top: 128%;
+    left: 0;
+    z-index: -2;
+}
+
+/*-------OUR BRIDES TITLE BAR------*/
+.Rectangle{
+    position: absolute;
+    left: 50%;
+    top: 285%;
+    transform: translate(-50%, -50%);
+    width: 100%;;
+    height: 10vw;
+    background: #8F6E64;
+    z-index: -3;
+}
+
+.h3{
+    font-family:'DM Serif Display', serif;
+    font-size: 15vw;
+    color: #32363C;
+    position: absolute;
+    top: 246%;
+    align-items: center;
+    z-index:-2;
+}
+
+.h4{
+    font-family:'DM Serif Display', serif;
+    font-size: 15vw;
+    color: #E1DCD9;
+    position: absolute;
+    top: 266%;
+    align-items: center;
+    z-index:-2;
+}
+
+/*-------BLAKELY'S STORY------*/
+.blakely{
+        width: 30vw;
+        height: auto;
+        top: 320%;
+        left: 63%;
+        position: absolute;
+        z-index:-2;
+}
+
+.bla{
+    font-family:'DM Serif Display', serif;
+    font-size: 7vw;
+    color: white;
+    position: absolute;
+    top: 392%;
+    z-index:-2;
+}
+
+.kely{
+    font-family:'DM Serif Display', serif;
+    font-size: 7vw;
+    color: #8F6E64;
+    position: absolute;
+    top: 397%;
+    z-index:-2;
+}
+.p1{
+    font-family:'DM Serif Display', serif;
+    font-size: 1.3vw;
+    max-width: 20vw;
+    color: #32363C;
+    position: absolute;
+    top: 335%;
+    z-index:-2;
+}
+
+.p2{
+    font-family:'DM Serif Display', serif;
+    font-size: 1.3vw;
+    max-width: 20vw;
+    color: #32363C;
+    position: absolute;
+    top: 370%;
+    z-index:-2;
+}
+
+.vertical-line1{
+    border-left: 2px solid #000000;
+    height: 15vw;
+    margin-top: 348%;
+    z-index: -2;
+}
+
+/*-------CATHERINE'S STORY------*/
+
+.catherine{
+        width: 30vw;
+        height: auto;
+        top: 440%;
+        position: absolute;
+        z-index:-2;
+}
+.cathe{
+    font-family:'DM Serif Display', serif;
+    font-size: 7vw;
+    color: white;
+    position: absolute;
+    top: 513%;
+    z-index:-2;
+}
+
+.rine{
+    font-family:'DM Serif Display', serif;
+    font-size: 7vw;
+    color: #8F6E64;
+    position: absolute;
+    top: 519%;
+    z-index:-2;
+}
+
+.p3{
+    font-family:'DM Serif Display', serif;
+    font-size: 1.3vw;
+    max-width: 20vw;
+    color: #32363C;
+    position: absolute;
+    top: 455%;
+    left: 60%;
+    z-index:-2;
+}
+
+.p4{
+    font-family:'DM Serif Display', serif;
+    font-size: 1.3vw;
+    max-width: 20vw;
+    color: #32363C;
+    position: absolute;
+    top: 480%;
+    left: 60%;
+    z-index:-2;
+}
+
+.vertical-line2{
+    border-left: 2px solid #000000;
+    height: 15vw;
+    margin-top: 100%;
+    z-index: -2;
+}
+
+/*-------MADELINE'S STORY------*/
+.madeline{
+        width: 30vw;
+        height: auto;
+        top: 560%;
+        position: absolute;
+        z-index:-2;
+}
+
+.made{
+    font-family:'DM Serif Display', serif;
+    font-size: 7vw;
+    color: white;
+    position: absolute;
+    top: 623%;
+    z-index:-2;
+}
+
+.lline{
+    font-family:'DM Serif Display', serif;
+    font-size: 7vw;
+    color: #8F6E64;
+    position: absolute;
+    top: 633%;
+    z-index:-2;
+}
+
+.p5{
+    font-family:'DM Serif Display', serif;
+    font-size: 1.3vw;
+    max-width: 24vw;
+    color: #32363C;
+    position: absolute;
+    top: 580%;
+    z-index:-2;
+}
+
+.p6{
+    font-family:'DM Serif Display', serif;
+    font-size: 1.3vw;
+    max-width: 23vw;
+    color: #32363C;
+    position: absolute;
+    top: 600%;
+    z-index:-2;
+}
+
+.Rectangle2{
+    position: absolute;
+    left: 50%;
+    top: 690%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 4.5vw;
+    background: #8F6E64;
+    z-index: -3;
+}
+
+.Rectangle3{
+    position: absolute;
+    left: 50%;
+    top: 730%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 4.5vw;
+    background: #8F6E64;
+    z-index: -3;
+}
+
+.more{
+    font-family:'DM Serif Display', serif;
+    font-size: 7vw;
+    color: #E1DCD9;
+    position: absolute;
+    top: 679%;
+    z-index:-2;
+}
+
+.appointment{
+    font-family:'DM Serif Display', serif;
+    font-size: 7vw;
+    color: #E1DCD9;
+    position: absolute;
+    top: 719%;
+    z-index:-2;
+}
+
+/*------Cursor------*/
+      .cursor{
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          position: fixed;
+          transform: translate3d(-50%,-50%,0);
+          top: 0;
+          left: 0;
+          background-color: white;
+          pointer-events: none;
+      }
+      
+      .cursor2{
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+          border: 2px solid white;
+          position: fixed;
+          transform: translate3d(-50%,-50%,0);
+          top: 0;
+          left: 0;
+          pointer-events: none;
+          transition: 0.1s ease-out;
+      }

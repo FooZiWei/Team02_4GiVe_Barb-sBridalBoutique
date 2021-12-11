@@ -1,0 +1,996 @@
+* {
+    margin: auto;
+    padding: 0;
+}
+
+.body {
+    font-family: 'DM Serif Text';
+    color: #e1dcd9;
+    min-height: 75rem;
+    padding-top: 4.5rem;
+}
+
+.container {
+    width: 100%;
+}
+
+
+
+/*-------Navbar------*/
+
+.navbar {
+    width: 100%;
+    height: 100%;
+    background-color:#8f6e64;
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    position: fixed;
+    top: 0;
+    left: -100%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 1%;
+    transition: left .8s cubic-bezier(1,0,0,1);
+}
+
+.navbar:hover {
+    opacity: 0.8;
+    filter: alpha(opacity=100);
+}
+
+.change {
+    left: 0;
+}
+
+.hamburger-menu {
+    width: 49px;
+    height: 44px;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 425px) {
+    div.hamburger-menu {
+        transform: translate(-50%,-50%);
+    }
+  }
+
+.line {
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    transition: all 0.8s;
+}
+
+.change .line-1 {
+    transform: rotateZ(-405deg) translate(-11px,9px);
+}
+.change .line-2 {
+    opacity: 0;
+}
+
+.change .line-3 {
+    transform: rotateZ(405deg) translate(-11px,-9px);
+}
+
+.nav-list {
+    text-align: center;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 60px;
+    color:white;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-family: "DM Serif Text";
+}
+
+@media screen and (max-width: 425px) {
+    a.nav-link {
+        font-size: 30px;
+    }
+  }
+
+.nav-link:hover {
+    color: black;
+}
+
+.nav-link::before,
+.nav-link::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color:#e1dcd9;
+    position: absolute;
+    left: 0;
+    transform: scaleX(0);
+    transition: transform 0.5s;
+}
+
+.nav-link::after {
+    bottom: 0;
+    transform-origin: right;
+
+}
+
+.nav-link::before {
+    top: 0;
+    transform-origin: left;
+}
+
+.nav-link:hover::before,
+.nav-link:hover::after {
+    transform: scaleX(1);
+}
+
+/*-------Icon bar------*/
+
+.icon-bar {
+    position: fixed;
+    top: 20%;
+    left: 95%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index:1;
+
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 12px;
+    transition: all 0.3s ease;
+    color: black;
+    font-size: 20px;
+}
+
+.icon-bar a:hover {
+    background-color: transparent;
+    color: white;
+}
+
+@media screen and (max-width: 425px) {
+    div.icon-bar {
+      display: none;
+    }
+  }
+
+/*-------Logo------*/
+
+.logo {
+    display: block;
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index:-1;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+/*-------Content 01------*/
+
+.img01 {
+    display: block;
+    position: absolute;
+    right: 0%;
+    z-index:-2;
+    width: 50%;
+}
+
+@media screen and (max-width: 425px) {
+    img.img01 {
+        right: 0%;
+        width: auto;
+        height: 35%;
+    }
+  }
+
+/*-------Content 02------*/
+
+.Header01 {
+    display: block;
+    color:#8f6e64;
+    font-size: 9vw;
+    position: absolute;
+    font-family: "DM Serif Display";
+    z-index:-1;
+    left: 5%;
+    margin-block-start: 2em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.Header01-2 {
+    display: block;
+    color:white;
+    font-size: 9vw;
+    position: absolute;
+    font-family: "DM Serif Display";
+    z-index:-1;
+    left: 20%;
+    margin-block-start: 2em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.img02 {
+    display: block;
+    position: absolute;
+    z-index:-2;
+    width: 50%;
+
+}
+
+@media screen and (max-width: 375px) {
+    img.img02 {
+        left: 20%;
+        height: 25%;
+        width: auto;
+    }
+  }
+
+.arrow-go a {
+    display: block;
+    position: absolute;
+    color: black;
+    left: 5%;
+    font-size: 8vw;
+    margin-block-start: 3.5em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.arrow-go a:hover {
+    background-color: transparent;
+    color: white;
+}
+
+/*-------Content 03------*/
+
+.img03 {
+    display: block;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    z-index:-2;
+    width: 100%;
+    height: auto;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+@media screen and (max-width: 600px) {
+    img.img03 {
+      height: 15%;
+      width: 100%;
+    }
+  }
+
+.Header02 {
+    display: inline;
+    color:white;
+    font-size: 4vw;
+    font-family: "DM Serif Text";
+    text-align: center;
+    letter-spacing: 1px;
+    position: absolute;
+    z-index:-1;
+    left: 20%;
+    margin-block-start: 2.8em;
+    margin-block-end: 2em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+
+@media screen and (max-width: 425px) {
+    div.Header02 {
+      font-size: 5vw;
+      left: 7%;
+      margin-block-start: 2.5em;
+      margin-block-end: 3em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+    }
+  }
+
+/*-------Content 04------*/
+
+.img04 {
+    position: absolute;
+    display: block;
+    left: 0px;
+    z-index:-1;
+    width: 50%;
+    height: auto;
+    margin-block-start: 1em;
+    margin-block-end: 6em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+@media screen and (max-width: 425px) {
+    img.img04 {
+        position: absolute;
+        display: block;
+        left: 0px;
+        z-index:-1;
+        width: 100%;
+        height: auto;
+    }
+}
+
+.Header03 {
+    display: inline;
+    color:#8f6e64;
+    font-size: 4vw;
+    font-family: "DM Serif Text";
+    position: absolute;
+    left: 55%;
+    z-index:-1;
+    margin-block-start: 2em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+@media screen and (max-width: 425px) {
+    div.Header03 {
+        color:white;
+        font-size: 6vw;
+        position: absolute;
+        left: 10%;
+        z-index:-1;
+        margin-block-start: 4em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+  }
+
+.description {
+    display: block;
+    padding-right: 20%;
+    font-family: "DM Serif Text";
+    color:#32363c ;
+    font-size: 2vw;
+    position: absolute;
+    left: 55%;
+    z-index:-1;
+    margin-block-start: 11em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+@media screen and (max-width: 425px) {
+    div.description {
+      color: white;
+      font-size: 3vw;
+      position: absolute;
+      left: 10%;
+      margin-block-start: 20em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+    }
+  }
+
+.btn {
+    display: block;
+    font-family: "DM Serif Text";
+    border: 2px solid #8f6e64;
+    color: #8f6e64;
+    width: 25vw;
+    height: 8vw;
+    font-size: 2vw;
+    position: absolute;
+    left: 55%;
+    margin-block-start: 20em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+@media screen and (max-width: 425px) {
+    button.btn {
+        border: 1px solid white;
+        color: white;
+        width: 50vw;
+        height: 16vw;
+        font-size: 4vw;
+        left: 25%;
+        margin-block-start: 28em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+
+    }
+  }
+
+.btn:hover {
+    color: white;
+    border: 2px solid white;
+    background: transparent;
+}
+
+/*-------Content 05------*/
+
+.img05 {
+    display: block;
+    position: absolute;
+    z-index:-2;
+    width: 50%;
+    height: auto;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+@media screen and (max-width: 425px) {
+    img.img05 {
+      width: 100%;
+      height: auto;
+      margin-block-start: 18em;
+      margin-block-end: 0em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+    }
+  }
+
+.Header04 {
+    color: #8f6e64;
+    font-family: "DM Serif Text";
+    font-size: 7.8vw;
+    position: absolute;
+    left: 5%;
+    z-index:-1;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.Header05 {
+    color: #8f6e64;
+    font-family: "DM Serif Text";
+    font-size: 3.5vw;
+    position: absolute;
+    left: 25%;
+    z-index:-1;
+    padding-right: 50%;
+    margin-block-start: 5.5em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+@media screen and (max-width: 425px) {
+    div.Header04 {
+      left: 10%;
+      font-size: 7.8vw;
+      color: white;
+      margin-block-start: 12em;
+      margin-block-end: 0em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+    }
+    div.Header05 {
+      left: 10%;
+      font-size: 7.8vw;
+      color: white;
+      padding-right: 10%;
+      margin-block-start: 13.5em;
+      margin-block-end: 0em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+    }
+}
+
+.description02 {
+    display: block;
+    font-family: "DM Serif Text";
+    color:#32363c ;
+    font-size: 2vw;
+    position: absolute;
+    left: 5%;
+    z-index:-1;
+    text-align: right;
+    padding-right: 54%;
+    margin-block-start: 19em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+@media screen and (max-width: 425px) {
+    div.description02 {
+        left: 10%;
+        font-size: 3.5vw;
+        color: white;
+        text-align: left;
+        padding-right: 18%;
+        margin-block-start: 40em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+  }
+
+.btn02 {
+    display: block;
+    font-family: "DM Serif Text";
+    color: white;
+    border: 2px solid white;
+    background: transparent;
+    width: 25vw;
+    height: 8vw;
+    font-size: 2vw;
+    position: absolute;
+    left: 64%;
+    margin-block-start: 35em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+@media screen and (max-width: 425px) {
+    button.btn02 {
+        border: 1px solid white;
+        color: white;
+        width: 50vw;
+        height: 16vw;
+        font-size: 4vw;
+        left: 25%;
+        margin-block-start: 45em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+  }
+
+.btn02:hover {
+    color:#8f6e64;
+    border: 2px solid #8f6e64;
+    background: transparent;
+}
+
+/*-------Content 06------*/
+
+.img06 {
+    display: block;
+    position: absolute;
+    z-index:-2;
+    left: 0%;
+    width: 50%;
+    height: auto;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+@media screen and (max-width: 425px) {
+    img.img06 {
+        width: 100%;
+        height: auto;
+        margin-block-start:30em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+}
+
+.Header06 {
+    color: #8f6e64;
+    font-family: "DM Serif Text";
+    font-size: 2.3vw;
+    position: absolute;
+    left: 55%;
+    z-index:-1;
+    padding-right: 15%;
+    margin-block-start: 5.5em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+@media screen and (max-width: 425px) {
+    div.Header06 {
+        left: 10%;
+        font-size: 3.5vw;
+        color: white;
+        margin-block-start: 40em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+}
+
+.Header07 {
+    color: #32363c;
+    font-family: "DM Serif Text";
+    font-size: 2vw;
+    position: absolute;
+    left: 55%;
+    z-index:-1;
+    margin-block-start: 12em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.Header08 {
+    color: #32363c;
+    font-family: "DM Serif Text";
+    font-size: 2vw;
+    position: absolute;
+    left: 55%;
+    z-index:-1;
+    margin-block-start: 13.5em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.Header09 {
+    color: #8f6e64;
+    font-family: "DM Serif Text";
+    font-size: 2.3vw;
+    position: absolute;
+    left: 65%;
+    z-index:-1;
+    margin-block-start: 10.32em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.Header10 {
+    color: #32363c;
+    font-family: "DM Serif Text";
+    font-size: 2vw;
+    position: absolute;
+    left: 55%;
+    z-index:-1;
+    margin-block-start: 19.5em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+@media screen and (max-width: 600px) {
+    div.Header07 {
+        left: 10%;
+        font-size: 3.5vw;
+        color: white;
+        margin-block-start: 45em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    div.Header08 {
+        left: 10%;
+        font-size: 3.5vw;
+        color: white;
+        margin-block-start: 47em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    div.Header09 {
+        left: 10%;
+        font-size: 3.5vw;
+        color: white;
+        margin-block-start: 46em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    div.Header10 {
+        left: 10%;
+        font-size: 3.5vw;
+        color: white;
+        margin-block-start: 49em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+  }
+
+.btn03 {
+    display: block;
+    font-family: "DM Serif Text";
+    color: #8f6e64;
+    border: 2px solid #8f6e64;
+    background: transparent;
+    width: 25vw;
+    height: 8vw;
+    font-size: 2vw;
+    position: absolute;
+    left: 55%;
+    margin-block-start: 23em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+@media screen and (max-width: 425px) {
+    button.btn03 {
+        border: 1px solid white;
+        color: white;
+        width: 50vw;
+        height: 16vw;
+        font-size: 4vw;
+        left: 25%;
+        margin-block-start: 50em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+}
+
+.btn03:hover {
+    color: white;
+    border: 2px solid white;
+    background: transparent;
+}
+
+/*-------Content 07------*/
+
+.img07 {
+    display: block;
+    position: absolute;
+    z-index:-2;
+    right: 0%;
+    width: 50%;
+    height: auto;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+@media screen and (max-width: 425px) {
+    img.img07 {
+      width: 100%;
+      height: auto;
+      margin-block-start: 44em;
+      margin-block-end: 0em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+    }
+}
+
+.Header11 {
+    color: #8f6e64;
+    font-family: "DM Serif Text";
+    font-size: 3.65vw;
+    position: absolute;
+    left: 16%;
+    z-index:-1;
+    padding-right: 45%;
+    margin-block-start: 2em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+@media screen and (max-width: 425px) {
+    div.Header11 {
+        left: 10%;
+        font-size: 6vw;
+        color: white;
+        padding-right: 15%;
+        margin-block-start: 35em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+}
+
+.btn04 {
+    display: block;
+    font-family: "DM Serif Text";
+    color: #8f6e64;
+    border: 2px solid #8f6e64;
+    background: transparent;
+    width: 25vw;
+    height: 8vw;
+    font-size: 2vw;
+    position: absolute;
+    left: 16%;
+    margin-block-start: 23em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+@media screen and (max-width: 425px) {
+    button.btn04 {
+        border: 1px solid white;
+        color: white;
+        width: 50vw;
+        height: 16vw;
+        font-size: 4vw;
+        left: 25%;
+        margin-block-start: 70em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+}
+
+.btn04:hover {
+    color: white;
+    border: 2px solid white;
+    background: transparent;
+}
+
+/*-------Content 07------*/
+
+.img08 {
+    display: block;
+    position: absolute;
+    width: 40%;
+    height: auto;
+    left: 0%;
+    z-index: -1;
+}
+
+@media screen and (max-width: 425px) {
+    img.img08 {
+      width: 100%;
+      height: auto;
+      margin-block-start: 61em;
+      margin-block-end: 0em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+    }
+}
+
+.header12 {
+    display: block;
+    position: absolute;
+    color: #8f6e64;
+    font-family: "DM Serif Text";
+    font-size: 3.6vw;
+    z-index:-1;
+    margin-top: 25%;
+}
+
+.header13 {
+    display: block;
+    position: absolute;
+    color: #32363c;
+    font-family: "DM Serif Text";
+    font-size: 2vw;
+    z-index:-1;
+    padding-right: 30%;
+    margin-top: 2%;
+}
+
+@media screen and (max-width: 425px) {
+    div.header12 {
+        font-size: 6vw;
+        color: white;
+        padding-left: 10%;
+        margin-block-start: 43em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+    div.header13 {
+        left: 10%;
+        font-size: 3.5vw;
+        color: white;
+        padding-right: 15%;
+        margin-block-start: 85em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+}
+
+.btn05 {
+    display: block;
+    font-family: "DM Serif Text";
+    color: #8f6e64;
+    border: 2px solid #8f6e64;
+    background: transparent;
+    width: 25vw;
+    height: 8vw;
+    font-size: 2vw;
+    left: 50%;
+    position: absolute;
+    margin-block-start: 7em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+@media screen and (max-width: 425px) {
+    button.btn05 {
+        border: 1px solid white;
+        color: white;
+        width: 50vw;
+        height: 16vw;
+        font-size: 4vw;
+        left: 25%;
+        margin-block-start: 83em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+}
+
+.btn05:hover {
+    color: white;
+    border: 2px solid white;
+    background: transparent;
+}
+
+/*-------Cursor------*/
+.cursor{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    transform: translate3d(-50%,-50%,0);
+    top: 0;
+    left: 0;
+    background-color: white;
+    pointer-events: none;
+}
+
+.cursor2{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: fixed;
+    transform: translate3d(-50%,-50%,0);
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    transition: 0.1s ease-out;
+}
+
+@media screen and (max-width: 768px) {
+    div.cursor{
+      display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    div.cursor2{
+      display: none;
+    }
+}
+
+/*-------Home END------*/
