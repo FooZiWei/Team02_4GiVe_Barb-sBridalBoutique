@@ -179,7 +179,7 @@ section {
   position: absolute;
   height: 200px;
   width: 600px;
-  left:50vw;
+  left:49vw;
   top: 130vw;
 }
 
@@ -195,7 +195,7 @@ section {
   position: absolute;
   height: 100px;
   width: 350px;
-  left: 39.5vw;
+  left: 35.5vw;
   top: 135vw;
 }
 
@@ -210,55 +210,52 @@ section {
 
 /*-------Content 3------*/
 .text07 {
-  padding-top:250px;
-  margin-left:300px;
+  position: absolute;
   height: 200px;
   width: 300px;
+  right: 0vw;
+  top: 175vw;
   z-index: 1;
 }
 
 .text08 {
-
+  position: absolute;
   height: 400px;
   width: 400px;
-  margin-left:330px;
-  padding-top:150px;
+  left: 10vw;
+  top: 175vw;
   z-index: 1;
 }
 
-.row2{
-padding:100px 0px 0px 50px;
-width:1900px;
-display:flex;
-flex-direction: row;
-justify-content: space-between;
-}
 
 /*-------Content 4------*/
 .text09 {
+  position: absolute;
   height: 200px;
   width: 300px;
+  left: 52vw;
+  top: 325vw;
   z-index: 1;
-  padding-left: 50vw;
-  margin-top:250px;
-
 }
 
 .text10 {
+  position: absolute;
   height: 400px;
   width: 400px;
   left: 67vw;
+  top: 390vw;
   z-index: 1;
 }
 
 .text11 {
-  position: relative;
+  position: absolute;
   height: 200px;
   width: 130px;
-  right:7vw;
-  top:-16vw;
+  right: 33.5vw;
+  top: 396vw;
   z-index: 1;
 }
+
 
 
 /*CATEGORY COMPONENT START HERE*/
@@ -294,7 +291,6 @@ justify-content: space-between;
 
 .row-content{
   height: 2400px;
-  margin-bottom:300px;
 }
 
 .row-others{
@@ -486,7 +482,6 @@ justify-content: space-between;
 
   .row-content{
     height: 860px;
-    margin-bottom:0px;
   }
 
   .row-others{
@@ -511,6 +506,7 @@ justify-content: space-between;
 
   /*-------Content 2------*/
   .text02 {
+    position: absolute;
     height: 70px;
     width: 90px;
     left: 61.5vw;
@@ -518,90 +514,83 @@ justify-content: space-between;
   }
 
   .text03 {
-
+    position: absolute;
     height: 80px;
     width: 80px;
     left: 58vw;
-    margin-top:150px;
+    top: 190vw;
   }
 
   .text04 {
+    position: absolute;
     height: 60px;
     width: 140px;
     left: 59vw;
-    margin-top:150px;
+    top: 190vw;
   }
 
   .text05 {
+    position: absolute;
     height: 80px;
     width: 80px;
-    left: 52vw;
-    margin-top:170px;
-
+    left: 49vw;
+    top: 206vw;
   }
 
   .text06 {
+    position: absolute;
     height: 80px;
     width: 140px;
-    left: 56vw;
-    margin-top:200px;
-
+    left: 53.5vw;
+    top: 214vw;
   }
 
 
   /*-------Content 3------*/
   .text07 {
-    padding:50px 50px 50px 50px;
-    margin-left:150px;
+    position: absolute;
     height: 80px;
     width: 90px;
+    right: 10vw;
+    top: 292vw;
     z-index: 1;
   }
 
   .text08 {
+    position: absolute;
     height: 170px;
-    width: 100px;
+    width: 140px;
+    left: 10vw;
+    top: 255vw;
     z-index: 1;
-    margin-left:60px;
   }
-
-
-  .row2{
-    padding:0px 0px 0px 0px;
-    width:50px;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    }
-    
 
   /*-------Content 4------*/
   .text09 {
-
+    position: absolute;
     height: 90px;
     width: 100px;
     left: 44vw;
+    top: 500vw;
     z-index: 1;
-    padding-left: 50vw;
-    margin-top:250px;
   }
 
   .text10 {
+    position: absolute;
     height: 100px;
     width: 100px;
-    left: 71vw;
+    left: 60vw;
+    top: 650vw;
     z-index: 1;
-    top:-170vh;
-    position:relative;
   }
 
   .text11 {
+    position: absolute;
     height: 60px;
     width: 80px;
-    left: 55vw;
-    z-index: 2;
-    top:-179.5vh;
-
+    right: 40vw;
+    top: 658vw;
+    z-index: 1;
   }
 
 
