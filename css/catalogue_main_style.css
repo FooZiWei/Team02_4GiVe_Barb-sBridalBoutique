@@ -4,7 +4,7 @@
     font-weight: 400;
     line-height: 205.65px;
     color:white;
-    font-family:serif;
+    font-family:DM Serif Display;
 }
 
 
@@ -75,29 +75,6 @@
 
 
 
-.footer-container{
-background-color:#E1DCD9
-
-}
-
-.back-container{
-background-color:#8F6E64;
-}
-
-.text-back{
-    font-size:200px;
-    font-weight: 600;
-    color:#E1DCD9;
-    font-family:serif;
-
-}
-
-
-.header-container{
-background-color: #E1DCD9;
-
-}
-
 
 
 
@@ -110,16 +87,9 @@ background-color: #E1DCD9;
         font-weight: 400;
         line-height: 41.13px;
         color:white;
-        font-family:serif;
+        font-family:DM Serif Display;
     }
 
-    .text-back{
-        font-size:70px;
-        font-weight: 600;
-        color:#E1DCD9;
-        font-family:serif;
-
-    }
 
 
 
@@ -137,7 +107,7 @@ background-color: #E1DCD9;
       text-decoration: none;
       display: inline-block;
       font-size: 60px;
-      font-family: "DM Serif Text";
+      font-family: "DM Serif Display";
       transition-duration: 0.4s;
       cursor: pointer;
       margin-top: 100px;

@@ -1,0 +1,651 @@
+body{
+    background-color: #E1DCD9;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+container {
+    width: 100%;
+}
+
+responsive{
+max-width: 100%;
+height: auto;
+}
+
+wrapper{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*-------"LO" TITLE BAR------*/
+.Rectangle1{
+    position: absolute;
+    left: 50%;
+    margin-top: 30%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 44%;
+    background: #6E5752;
+    z-index: 1;
+}
+
+.h1{
+    font-family:'DM Serif Display', serif;
+    font-size: 35vw;
+    color: #E1DCD9;
+    position: sticky;
+    margin-top: 8%;
+    z-index:2;
+}
+
+.bridalgallery_1{
+    width: 23.75vw;
+    height: auto;
+    top: 38%;
+    left: 65%;
+    position: absolute;
+    z-index:2;
+}
+
+ /*-------DRESS GALLERY------*/ 
+
+    .bridalgallery_2{
+    width: 25.6vw;
+    height: auto;
+    margin-top: 0%;
+    right: 10%;
+    position: absolute;
+    z-index: 2;
+}
+    
+    .dresstitle{
+    font-family:'DM Serif Display', serif;
+    font-size: 8vw;
+    color: #32363C;
+    position: absolute;
+    top: 130%;
+    right: 33%;
+    z-index:1;
+}
+
+.material-icons{
+  font-size: 100px;
+  color: #8a6e64;
+}
+
+.downicon{  
+    position: absolute;
+    top: 750px;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index:1;
+}
+
+ .bridalgallery_3{
+    width: 25.6vw;
+    height: auto;
+    margin-top: 40%;
+    right: 10%;
+    position: absolute;
+    z-index:2;
+}
+
+ .bridalgallery_4{
+    width: 25.6vw;
+    height: auto;
+    top: 235%;
+    right: 50%;
+    position: absolute;
+    z-index:2;
+}
+
+.bridalgallery_5{
+    width: 25.6vw;
+    height: auto;
+    top: 263%;
+    right: 10%;
+    position: absolute;
+    z-index:2;
+}
+
+    
+/*-------WEDDING GALLERY------*/
+.bridalgallery_6{
+    width: 23.5vw;
+    height: auto;
+    top: 345%;
+    right: 11%;
+    position: absolute;
+    z-index:2;
+}
+
+.downicon2{  
+    position: absolute;
+    top: 340%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index:1;
+}
+.weddingtitle{
+    font-family:'DM Serif Display', serif;
+    font-size: 8vw;
+    color: #32363C;
+    position: absolute;
+    top: 358%;
+    right: 33%;
+    z-index:1;
+}
+
+.bridalgallery_7{
+    width: 25.6vw;
+    height: auto;
+    top: 400%;
+    right: 10%;
+    position: absolute;
+    z-index:2;
+}
+    
+.bridalgallery_8{
+    width: 25.6vw;
+    height: auto;
+    top: 435%;
+    right: 50%;
+    position: absolute;
+    z-index: 1;
+}
+
+.bridalgallery_9{
+    width: 25.6vw;
+    height: auto;
+    top: 483%;
+    right: 10%;
+    position: absolute;
+    z-index: 2;
+}
+
+.bridalgallery_10{
+    width: 25.6vw;
+    height: auto;
+    top: 565%;
+    right: 10%;
+    position: absolute;
+    z-index: 2;
+}   
+
+/*-------"VE" TITLE BAR------*/
+.Rectangle2{
+    position: absolute;
+    left: 50%;
+    top: 670%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 44%;
+    background: #6E5752;
+    z-index: 1;
+}
+.h2{
+    font-family:'DM Serif Display', serif;
+    font-size: 35vw;
+    color: #E1DCD9;
+    position: absolute;
+    top: 625%;
+    z-index: 2;
+}
+
+.bridalgallery_11{
+    width: 23.8vw;
+    height: auto;
+    top: 648%;
+    right: 10.9%;
+    position: absolute;
+    z-index: 2;
+}
+
+.bridalgallery_12{
+    width: 23.8vw;
+    height: auto;
+    top: 705%;
+    right: 10.9%;
+    position: absolute;
+    z-index: 2;
+}
+
+.bridalgallery_13{
+    width: 23.8vw;
+    height: auto;
+    top: 788%;
+    right: 10.9%;
+    position: absolute;
+    z-index: 2;
+}
+
+.stylingtitle{
+    font-family:'DM Serif Display', serif;
+    font-size: 8vw;
+    color: #32363C;
+    position: absolute;
+    top: 730%;
+    right: 33%;
+    z-index: 1;
+}
+
+.bridalgallery_14{
+    width: 23.8vw;
+    height: auto;
+    top: 830%;
+    right: 50%;
+    position: absolute;
+    z-index: 2;
+}
+
+.bridalgallery_15{
+    width: 23.8vw;
+    height: auto;
+    top: 870%;
+    right: 10.9%;
+    position: absolute;
+    z-index: 2;
+}
+
+/*-------BottomNav Bar-------*/
+
+.footer-container {
+  height: 696px;
+  width: 100%;
+  margin: 0;
+  padding-top: 238px;
+}
+
+.back-container {
+  top: 0;
+  width: 100%;
+  height: 129px;
+  text-align: right;
+  padding-right: 161px;
+}
+
+.text-back {
+  position: relative;
+  top: -38px;
+}
+
+.arrow-container {
+  width: 100%;
+  margin-top: 100px;
+  margin-left: 76%;
+}
+
+.backbutton {
+  background-color: #8F6E64;
+  border: none;
+  color: white;
+  height: 260px;
+  width: 100%;
+  text-align: right;
+  padding-right: 120px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 180px;
+  font-family: "DM Serif Text";
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-top: 450%;
+  z-index:-3;
+}
+
+.backbutton {
+  background-color: #8F6E64;
+  color: #E1DCD9;
+}
+
+.backbutton:hover {
+  background-color: #ADAEB1;
+  color: #E1DCD9;
+}
+
+.backbutton1 {
+  background-color: #8F6E64;
+  border: none;
+  color: white;
+  height: 260px;
+  width: 100%;
+  text-align: right;
+  padding-right: 120px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 180px;
+  font-family: "DM Serif Text";
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-top: 350px;
+  z-index:-3;
+}
+
+.backbutton1 {
+  background-color: #8F6E64;
+  color: #E1DCD9;
+}
+
+.backbutton1:hover {
+  background-color: #ADAEB1;
+  color: #E1DCD9;
+}
+
+.material-icons{
+  font-size: 250px;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  margin-right: 70px;
+}
+
+.backicon {
+    position: absolute;
+    padding-top: 200px;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 10;
+
+}
+
+.backicon a {
+    display: block;
+    text-align: center;
+    transition: all 0.3s ease;
+    color: #8F6E64;
+}
+
+.backicon a:hover {
+    background-color: transparent;
+    color: #ADAEB1;
+}
+
+
+
+
+.footer-container{
+background-color:#E1DCD9
+
+}
+
+.back-container{
+background-color:#8F6E64;
+}
+
+.text-back{
+    font-size:200px;
+    font-weight: 600;
+    color:#E1DCD9;
+    font-family:serif;
+
+}
+
+
+.header-container{
+background-color: #E1DCD9;
+
+}
+
+/*----BACKGRPUND LINE----*/
+.bgline{
+  border-left: 2px solid #000000;
+  opacity: 0.25;
+  height: 1005%;
+  position: absolute;
+  left: 32%;
+  margin-left: -3px;
+  top: 0;
+  z-index: -1;
+}
+
+@media only screen and (max-width: 600px){
+ 
+ .body{
+    margin: 0;
+    padding: 0;
+}
+    
+/*-------"LO" TITLE BAR------*/
+    .Rectangle1{
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 13%;
+    background: #6E5752;
+    z-index: 1;
+    }
+    
+    .h1{
+    font-family:'DM Serif Display', serif;
+    font-size: 44vw;
+    color: #E1DCD9;
+    position: absolute;
+    margin-top: 46vw;
+    z-index: 2;
+}
+    
+    .bridalgallery_1{
+    width: 31vw;
+    height: auto;
+    top: 59vw;
+    right: 2%;
+    position: absolute;
+    z-index: 2;
+}
+    
+    /*-------DRESS GALLERY------*/ 
+
+    .bridalgallery_2{
+    width: 72vw;
+    height: auto;
+    top: 65%;
+    right: 5%;
+    position: absolute;
+    z-index: 2;
+}
+    
+    .dresstitle{
+    font-family:'DM Serif Display', serif;
+    font-size: 17vw;
+    color: #32363C;
+    position: absolute;
+    top: 95%;
+    right: 53%;
+    z-index: 1;
+}
+
+.material-icons{
+  font-size: 50px;
+  color: #8a6e64;
+}
+
+.downicon{  
+    position: absolute;
+    top: 55%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index:1;
+}
+
+    .bridalgallery_3{
+    width: 72vw;
+    height: auto;
+    top: 95%;
+    right: 5%;
+    position: absolute;
+    z-index: 2;
+}
+    
+    .bridalgallery_4{
+    width: 72vw;
+    height: auto;
+    top: 162%;
+    right: 5%;
+    position: absolute;
+    z-index: 2;
+}
+    
+    .bridalgallery_5{
+    width: 72vw;
+    height: auto;
+    top: 210%;
+    right: 5%;
+    position: absolute;
+    z-index: 2;
+}
+   
+    /*-------WEDDING GALLERY------*/ 
+    .bridalgallery_6{
+    width: 66vw;
+    height: auto;
+    top: 258%;
+    right: 8%;
+    position: absolute;
+    z-index: 2;
+}
+    
+    .downicon2{  
+    position: absolute;
+    top: 262%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index:1;
+}
+    
+     .weddingtitle{
+    font-family:'DM Serif Display', serif;
+    font-size: 17vw;
+    color: #32363C;
+    position: absolute;
+    top: 270%;
+    right: 30%;
+    z-index: 1;
+}
+    
+    .bridalgallery_7{
+    width: 72vw;
+    height: auto;
+    top: 290%;
+    right: 5%;
+    position: absolute;
+    z-index: 2;
+}
+    
+    .bridalgallery_8{
+    width: 72vw;
+    height: auto;
+    top: 338%;
+    right: 5%;
+    position: absolute;
+    z-index: 2;
+}
+    
+    .bridalgallery_9{
+    width: 72vw;
+    height: auto;
+    top: 386%;
+    right: 5%;
+    position: absolute;
+    z-index: 2;
+}
+    
+    .bridalgallery_10{
+    width: 72vw;
+    height: auto;
+    top: 434%;
+    right: 5%;
+    position: absolute;
+    z-index: 2;
+}
+    
+    /*-------"Ve" TITLE BAR------*/
+    .Rectangle2{
+    left: 50%;
+    top: 500%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 13%;
+    background: #6E5752;
+    z-index: 1;
+    }
+    
+    .h2{
+    font-family:'DM Serif Display', serif;
+    font-size: 44vw;
+    color: #E1DCD9;
+    position: absolute;
+    top: 487%;
+    z-index: 2;
+}
+    
+    .bridalgallery_11{
+    width: 31vw;
+    height: auto;
+    top: 493.5%;
+    right: 2%;
+    position: absolute;
+    z-index: 2;
+}
+    
+    /*-------STYLING GALLERY------*/ 
+    
+    .bridalgallery_12{
+    width: 66vw;
+    height: auto;
+    top: 510%;
+    right: 8%;
+    position: absolute;
+    z-index: 2;
+}
+    
+    .stylingtitle{
+    font-family:'DM Serif Display', serif;
+    font-size: 17vw;
+    color: #32363C;
+    position: absolute;
+    top: 535%;
+    right: 38%;
+    z-index: 1;
+}
+    .bridalgallery_13{
+    width: 66vw;
+    height: auto;
+    top: 558%;
+    right: 8%;
+    position: absolute;
+    z-index: 2;
+}
+    
+    .bridalgallery_14{
+    width: 66vw;
+    height: auto;
+    top: 606%;
+    right: 8%;
+    position: absolute;
+    z-index: 2;
+}
+    
+    .bridalgallery_15{
+    width: 66vw;
+    height: auto;
+    top: 654%;
+    right: 8%;
+    position: absolute;
+    z-index: 2;
+}
+    
+    

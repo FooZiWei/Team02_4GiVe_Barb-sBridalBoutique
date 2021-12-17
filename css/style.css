@@ -59,9 +59,17 @@
 
 @media screen and (max-width: 425px) {
     div.hamburger-menu {
-        transform: translate(-50%,-50%);
-    }
+       width: 32px;
+       height: 36px;
+       position: fixed;
+       top: 50px;
+       left: 50px;
+       cursor: pointer;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
   }
+}  
 
 .line {
     width: 100%;
@@ -85,6 +93,27 @@
     text-align: center;
 }
 
+@media only screen and (max-width: 600px) {
+    .line {
+        width: 100%;
+        height: 3px;
+        background-color: black;
+        transition: all 0.8s;
+      }
+    
+      .change .line-1 {
+        transform: rotateZ(-405deg) translate(-10px, 7px);
+      }
+    
+      .change .line-2 {
+        opacity: 0;
+      }
+    
+      .change .line-3 {
+        transform: rotateZ(405deg) translate(-10px, -7px);
+      }
+}
+
 .nav-item {
     list-style: none;
 }
@@ -100,9 +129,24 @@
 
 @media screen and (max-width: 425px) {
     a.nav-link {
-        font-size: 30px;
+        text-decoration: none;
+        font-size: 40px;
+        color: white;
+        font-weight: 300;
+        letter-spacing: 1px;
+        font-family: "DM Serif Text";
     }
-  }
+
+    .nav-list {
+        text-align: center;
+        padding: 48px;
+    }
+
+    .navbar {
+        padding: 0;
+        z-index: 1;
+    }
+}
 
 .nav-link:hover {
     color: black;
@@ -167,23 +211,32 @@
     div.icon-bar {
       display: none;
     }
-  }
+}
 
 /*-------Logo------*/
 
 .logo {
-    display: block;
-    position: absolute;
+    position: fixed;
     top: 7%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    z-index:-1;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
 }
 
+@media screen and (max-width: 425px) {
+    .logo {
+       margin: 10px 20px 20px 10px;
+       width: 120px;
+       padding-left: 2px;
+       left: 190px;
+       z-index: 2;
+    }
+
+    .logo img{
+        width: 120px;
+        height: auto;
+      }
+}
 
 /*-------Content 01------*/
 
@@ -199,7 +252,7 @@
     img.img01 {
         right: 0%;
         width: auto;
-        height: 35%;
+        height: 40%;
     }
   }
 
@@ -243,7 +296,7 @@
 
 @media screen and (max-width: 375px) {
     img.img02 {
-        left: 20%;
+        left: 30%;
         height: 25%;
         width: auto;
     }
@@ -287,7 +340,7 @@
       height: 15%;
       width: 100%;
     }
-  }
+}
 
 .Header02 {
     display: inline;
@@ -397,7 +450,7 @@
       margin-inline-start: 0px;
       margin-inline-end: 0px;
     }
-  }
+}
 
 .btn {
     display: block;
@@ -429,7 +482,7 @@
         margin-inline-end: 0px;
 
     }
-  }
+}
 
 .btn:hover {
     color: white;
@@ -455,7 +508,7 @@
     img.img05 {
       width: 100%;
       height: auto;
-      margin-block-start: 18em;
+      margin-block-start: 16em;
       margin-block-end: 0em;
       margin-inline-start: 0px;
       margin-inline-end: 0px;
@@ -577,6 +630,18 @@
     color:#8f6e64;
     border: 2px solid #8f6e64;
     background: transparent;
+}
+
+@media screen and (max-width: 425px) {
+    hr.line {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    hr.line02 {
+        color: transparent;
+    }
 }
 
 /*-------Content 06------*/
@@ -770,7 +835,7 @@
     width: 50%;
     height: auto;
     margin-block-start: 0em;
-    margin-block-end: 1em;
+    margin-block-end: 0em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
@@ -779,7 +844,7 @@
     img.img07 {
       width: 100%;
       height: auto;
-      margin-block-start: 44em;
+      margin-block-start: 42em;
       margin-block-end: 0em;
       margin-inline-start: 0px;
       margin-inline-end: 0px;
@@ -851,7 +916,7 @@
     background: transparent;
 }
 
-/*-------Content 07------*/
+/*-------Content 08------*/
 
 .img08 {
     display: block;
@@ -866,7 +931,7 @@
     img.img08 {
       width: 100%;
       height: auto;
-      margin-block-start: 61em;
+      margin-block-start: 56em;
       margin-block-end: 0em;
       margin-inline-start: 0px;
       margin-inline-end: 0px;

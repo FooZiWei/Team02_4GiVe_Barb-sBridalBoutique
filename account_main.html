@@ -2,23 +2,21 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css" integrity="sha384-7ynz3n3tAGNUYFZD3cWe5PDcE36xj85vyFkawcF6tIwxvIecqKvfwLiaFdizhPpN" crossorigin="anonymous">
-  <link href='https://fonts.googleapis.com/css?family=DM Serif Display' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=DM Serif Text' rel='stylesheet'>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-<link rel="stylesheet" href="css/account_mainform.css">
-
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css" integrity="sha384-7ynz3n3tAGNUYFZD3cWe5PDcE36xj85vyFkawcF6tIwxvIecqKvfwLiaFdizhPpN" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=DM Serif Display' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=DM Serif Text' rel='stylesheet'>
+    <link rel="stylesheet" href="css/account_mainform.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 
   <title>Account</title>
@@ -108,64 +106,107 @@
  <div class="container">
      <div class="row">
        <div class="col-4">
-          <a href="index.html">
-            <img class="logo" src="images/barbs_logo.png">
+          <a href="account_main.html">
+            <img class="logo" src="images/homepage/barbs_logo.png">
           </a>
         </div>
       </div>
     </div>
 <!-- LOGO END -->
 
+
 </body>
 
+<!-- BODY 01 START -->
+<div class="row">
+  <div class="col-sm-6 col-md-6 col-lg-12">
+    <div class="body01">LOG IN</div>
 
 
-<!--LOGIN  TEXT -->
+    </div>
+    <!-- BODY 01 END -->
+
+    <div class="row">
+      <div class="col-sm-6 col-md-6 col-lg-12">
+        <div class="body02">REGISTER</div>
 
 
-<head>
+        </div>
 
-  <h2 class="text-center"></>
-    <body>
-          <div style = "position:absolute; left:700px; top:200px;font-family:'DM Serif Text'; ">
-             LOG IN
-          </div>
-</body>
-<!--LOGIN  TEXT END -->
+        <div class="row">
+          <div class="col-sm-6 col-md-6 col-lg-12">
+            <div class="body04">FORGOTTEN YOUR PASSWORD?</div>
 
-<!--FORM FILL -->
 
+            </div>
+
+
+
+
+
+
+
+
+<!-- ICON START -->
+<div class="row">
+  <div class="col-sm-6 col-md-6 col-lg-12">
+<div class="text-icon01">
+<div class="circle">?</div>
+<div id="circle01"></div>
+<!-- ICON END -->
+
+
+<!-- LINE START -->
+<div class="row">
+  <div class="col-sm-6 col-md-6 col-lg-12">
+<div class="vl"></div>
+<!-- LINE END -->
 
 <!-- DIV START -->
 <div class="row">
-  <div class="col-sm-12 col-md-12 col-lg-12" style="height:20vh;"></div>
+  <div class="col-sm-6 col-md-12 col-lg-12" style="height:45vh;"></div>
 </div>
 <!-- DIV END -->
 
 <!-- ONCE IT SUBMITTED IT JUMP TO -->
-      <script type="text/javascript">
-        var submitted = false;
-      </script>
-      <iframe name="hidden_frame" id="hidden_frame" style="display:none;" onload="if(submitted) {window.location='account_login_successful.html';}"></iframe>
+<script type="text/javascript">
+  var submitted = false;
+</script>
+<iframe name="hidden_frame" id="hidden_frame" style="display:none;" onload="if(submitted) {window.location='account_login_successful.html';}"></iframe>
 
 
 
 <!-- FORM HERE -->
 <div class="form-style-8">
+  <!-- ONCE USER SUBMIT IT JUMP TO THANKYOU PAGE -->
+  <iframe name="hidden_frame" id="hidden_frame" style="display:none;" onload="if(submitted) {window.location='account_login_successful.html';}"></iframe>
+  <form novalidate action="https://docs.google.com/forms/d/e/1FAIpQLSfviBuSWs8pSP3UOA5b3B-pmROhYy_bgd0CudKpsEJ_b1IXbA/formResponse" method="post" target="hidden_frame" onsubmit="submitted=true;">
+    <div class="form-group">
+      <input type="email" <input type="email" class="form-control" name="entry.1580782615" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="EMAIL ADDRESS">
+      <input type="password" <input type="password" class="form-control" name="entry.1580782615" id="exampleInputPassword1" aria-describedby="emailHelp" placeholder="PASSWORD">
 
-  <form>
-    <form novalidate action="https://docs.google.com/forms/d/e/1FAIpQLSfviBuSWs8pSP3UOA5b3B-pmROhYy_bgd0CudKpsEJ_b1IXbA/formResponse" method="post" target="hidden_frame" onsubmit="submitted=true;">
-      <div class="form-group">
-    <input type="email" name="field1" placeholder="EMAIL ADDRESS" />
-    <input type="password" name="field2" placeholder="PASSWORD" />
-    <a href="account_login_successful.html">
-         <input type="button" value="LOG IN"/>
-       </a>
-
+<input type="submit" value="LOG IN" />
 
 
   </form>
 </div>
+
+
+<!-- Fake Spacing Start -->
+<div class="row">
+  <div class="col-sm-12 col-md-12 col-lg-12" style="height: 20vw;;"></div>
+</div>
+<!-- Fake Spacing End -->
+
+
+
+<a href="account_register.html">
+  <input type="submit" value="CREATE ACCOUNT" />
+</a>
+
+
+
+
 
 <!-- Form Filed Validation -->
 <script>
@@ -190,287 +231,102 @@
 </script>
 
 
-
-
-
-
-
-<!--FORM FILL END -->
-
-
-
-<!--REGISTER TEXT -->
-<h2 class="text-center"></>
-<body>
-          <div style = "position:absolute; left:700px; top:600px;font-family:'DM Serif Text'; ">
-             REGISTER
-          </div>
-
-       </body>
-
-         <h5 class="text-center"></>
-<body>
-                 <div style = "position:absolute; left:700px; top:650px;font-family:'DM Sans'; ">
-                    Register An Account For
-                    Better Experience!
-                 </div>
-
-              </body>
-
-<style>
-h5 {
-  letter-spacing: 10px;
-}
-
-</style>
-<!--REGISTER TEXT END -->
-
-
-<!-- DIV START -->
+<!-- LINE START -->
 <div class="row">
-  <div class="col-sm-12 col-md-12 col-lg-12" style="height:100vh;"></div>
-</div>
-<!-- DIV END -->
+  <div class="col-sm-6 col-md-6 col-lg-12">
+<div class="hr01"></div>
 
-<!-- DIV START -->
+<!-- LINE START -->
 <div class="row">
-  <div class="col-sm-12 col-md-6 col-lg-6 bg-dark text-white">Responsive Square</div>
-  <div class="col-sm-12 col-md-6 col-lg-6 bg-danger text-white">Responsive Square</div>
-</div>
-<!-- DIV END -->
+  <div class="col-sm-6 col-md-6 col-lg-12">
+<div class="hr02"></div>
 
-<!-- DIV START -->
+<!-- FIND US AT  -->
 <div class="row">
-  <div class="col-sm-12 col-md-6 col-lg-6 bg-secondary text-white">Responsive Square</div>
-  <div class="col-sm-12 col-md-6 col-lg-6 bg-primary text-white">Responsive Square</div>
-</div>
-<!-- DIV END -->
-
-<!-- DIV START -->
-<div class="row">
-  <div class="col-sm-12 col-md-6 col-lg-6 bg-dark text-white">Responsive Square</div>
-  <div class="col-sm-12 col-md-6 col-lg-6 bg-danger text-white">Responsive Square</div>
-</div>
-<!-- DIV END -->
-
-<!-- DIV START -->
-<div class="row">
-  <div class="col-sm-12 col-md-6 col-lg-6 bg-secondary text-white">Responsive Square</div>
-  <div class="col-sm-12 col-md-6 col-lg-6 bg-primary text-white">Responsive Square</div>
-</div>
-<!-- DIV END -->
-
-<!-- DIV START • US AT -->
-
-  <div class="container-fluid" style="padding:0px;">
-
-      <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-12 topbutton ">
-          <div>FIND</div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-              <div class="col-sm-12 col-md-12 col-lg-12 bottombutton">
-                <div>US AT</div>
-              </div>
-
-</div>
-<!-- DIV END • US AT -->
-
-<!-- DIV START • STYLE FIND BUTTON -->
-<style>
-.topbutton {
-  text-align: left:700px; top:200px;;
-  font-family: 'DM Serif Text';
-  font-size: 180px;
-  height: 260px;
-  background-color: #E1DCD9;
-  color: #32363C;
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-
-.topbuttonback {
-  background-color: #8F6E64;
-  color: #E1DCD9;
-}
-
-.topbuttonback:hover {
-  background-color: #ADAEB1;
-  color: #E1DCD9;
-}
-
-
-</style>
-<!-- DIV END • STYLE FIND BUTTON -->
-
-
-<!-- DIV START • STYLE US AT BUTTON -->
-
-<style>
-.bottombutton {
-  text-align: right;
-  font-family: 'DM Serif Text';
-  font-size: 180px;
-  height: 260px;
-  background-color: #8F6E64;
-  color: white;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  position: relative;
-}
-
-.bottombuttonback {
-  background-color: #8F6E64;
-  color: #E1DCD9;
-}
-
-.bottombuttonback:hover {
-  background-color: #ADAEB1;
-  color: #E1DCD9;
-}
-
-
-</style>
-<!-- DIV END • STYLE US AT BUTTON -->
-
-<!--ADDRESS  -->
-<div class="container">
-  <div class="row justify-content-start">
-
-
-
-
-    <DIV align="left">
-    <div style="position:absolute; left:500px; top:1925px;font-family:'DM Sans';"
-    <div class="col-4">
-
-330-672-3031
-450 East Main Street
-Kent, Ohio  44242
+  <div class="col-sm-12 col-md-12 col-lg-12">
+    <h11 class="contact-02" style="width: 100%;top:1200px;">Us At</h11>
+    <h11 class="contact-01" style="width: 100%; top:1200px;">Find</h11>
   </div>
 </div>
+
+
+
+
+      <!--ADDRESS  -->
+      <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-12">
+              <div class="body05">330-672-3031<br>
+              450 East Main Street
+              Kent,<br>Ohio 44242</div>
+
+
 <!--ADDRESS END  -->
 
-<!--OPEN HOURS  -->
-    <div class="container">
-      <div class="row justify-content-start">
-        <div style="position:absolute; left:500px; top:1800px;font-family:'DM Serif Text';"
-      <div class="col-4">
-          <p style="text-align:left;">
-        OPEN HOURS:
-      </div>
-
 
       <div class="container">
-        <div class="row justify-content-start">
-          <div style="position:absolute; left:500px; top:1840px;font-family:'DM Sans';"
-    <div class="col-4">
-        <p style="text-align:left;">
-      11am-8pm
-    </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-12">
+              <div class="body06">OPEN HOURS:</div>
+
+              <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-12">
+                      <div class="body07">11am-8pm<br>11am-6pm<br>10am-5pm<br></div>
+
+                      <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-6 col-lg-12">
+                              <div class="body08">Mon & Thu<br>Tue, Wed,Fri<br>Sat<br></div>
+
+                              <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-6 col-md-6 col-lg-12">
+                                      <div class="body09">CLOSE ON SUNDAY</div>
 
 
-    <div class="container">
-      <div class="row justify-content-start">
-        <div style="position:absolute; left:650px; top:1840px;font-family:'DM Sans';"
-  <div class="col-4">
-    <p class="fs-6">
-    Mon & Thu
-  </div>
-
-  <div class="container">
-    <div class="row justify-content-start">
-      <div style="position:absolute; left:500px; top:1880px;font-family:'DM Sans';"
-  <div class="col-4">
-      <p style="text-align:left;">
-    11am-6pm
-  </div>
-
-  <div class="container">
-  <div class="row justify-content-start">
-    <div style="position:absolute; left:680px; top:1883px;font-family:'DM Sans';"
-  <div class="col-4">
-    <p class="fs-6">
-  Tue, Wed, Fri
-  </div>
-
-
-
-    <div class="container">
-      <div class="row justify-content-start">
-        <div style="position:absolute; left:500px; top:1920px;font-family:'DM Sans';"
-  <div class="col-4">
-    <p style="text-align:left;">
-      10am-5pm
-  </div>
-
-  <div class="container">
-    <div class="row justify-content-start">
-      <div style="position:absolute; left:595px; top:1923px;font-family:'DM Sans';"
-<div class="col-4">
-  <p class="fs-6">
-   Sat
-</div>
 <!--OPEN HOURS END  -->
+<div class="container">
+  <div class="row">
+      <div class="col-sm-6 col-md-6 col-lg-12">
+        <div class="body10">Review Us On The Knot</div>
 
-  <h3 style="color:#8f6e64;"
-  <body>
-        <div style = "position:absolute; left:500px; top:1960px;font-family:'DM Sans'; color:#8F6E64; font-weight:bold; ">
-           CLOSE ON SUNDAY
-         </div>
-       </body>
+        <div class="container">
+          <div class="row">
+              <div class="col-sm-6 col-md-6 col-lg-12">
+                <div class="body11">https://www.theknot.com/
+                </div>
 
-<!--CONTACT  -->
+                <div class="container">
+                  <div class="row">
+                      <div class="col-sm-6 col-md-6 col-lg-12">
+                        <div class="body12">Barb's Bridal Boutique Ohio<br>Barb's_Bridal Boutique<br>330-672-3031</div>
 
-         <h3 style="color:black;"
-         <body>
-           <div style = "position:absolute; left:500px; top:2100px;font-family:'DM Serif Text';  ">
-             Review Us On The Knot
-        </div>
-      </div>
-</body>
-    <div class="container">
-      <div class="row justify-content-start">
-        <DIV align="left">
-        <div style="position:absolute; left:500px; top:2150px;font-family:'DM Sans';"
-      <div class="col-4">
-        <p class="fs-6">
-        https://www.theknot.com/
-      </div>
-      </div>
 
-      <div class="container">
-        <div class="row justify-content-start">
-          <DIV align="left">
-          <div style="position:absolute; left:500px; top:2250px;font-family:'DM Sans';"
-    <div class="col-4">
-      <p class="fs-6">
-      Barb's Bridal Boutique Ohio
-    </div>
-    </div>
 
-    <div class="container">
-      <div class="row justify-content-start">
-        <DIV align="left">
-        <div style="position:absolute; left:500px; top:2330px;font-family:'DM Sans';"
-  <div class="col-4">
-    <p class="fs-6">
-      Barb's_Bridal Boutique
-    </div>
-    </div>
+                        <div class="container">
+                          <div class="row">
+                              <div class="col-sm-6 col-md-6 col-lg-12">
+                                <div class="text-icon02"><span class="material-icons">fmd_good</span></div>
 
-    <div class="container">
-      <div class="row justify-content-start">
-        <DIV align="left">
-        <div style="position:absolute; left:500px; top:2410px;font-family:'DM Sans';"
-    <div class="col-4">
-      <p class="fs-6">
-        330-672-3031
-    </div>
-    </div>
-<!--CONTACT END -->
+                                <div class="container">
+                                  <div class="row">
+                                      <div class="col-sm-6 col-md-6 col-lg-12">
+                                        <div class="text-icon03"><span class="material-icons">schedule</span></div>
+
+                                          <div class="container">
+                                            <div class="row">
+                                              <div class="col-sm-6 col-md-6 col-lg-12">
+                                          <div class="text-icon04"><span class="material-icons">link</span></div>
+
+                                          <div class="container">
+                                            <div class="row">
+                                              <div class="col-sm-6 col-md-6 col-lg-12">
+                                          <div class="text-icon05"><i class="bi bi-facebook"></i></div>
+
+                                          <div class="text-icon06"><i class="bi bi-instagram"></i></div>
+
+                                          <div class="text-icon07"><i class="bi bi-telephone-fill"></i></div>
 
 
 
@@ -478,32 +334,27 @@ Kent, Ohio  44242
 
 
 
+                                          <!-- CURSOR -->
+                                          <div class="cursor"></div>
+                                          <div class="cursor2"></div>
 
 
 
+                                          <script>
+                                          "use strict";
+                                          (function() {
+                                          var cursor = document.querySelector('.cursor');
+                                          var cursor2 = document.querySelector('.cursor2');
+                                          var links = document.querySelectorAll('a');
 
+                                          var editCursor = function editCursor(event) {
+                                          cursor.style.left = event.clientX + 'px';
+                                          cursor.style.top = event.clientY + 'px';
+                                          cursor2.style.left = event.clientX + 'px';
+                                          cursor2.style.top = event.clientY + 'px';
+                                          };
 
-<!-- CURSOR -->
-<div class="cursor"></div>
-<div class="cursor2"></div>
-
-
-
-<script>
-  "use strict";
-  (function() {
-    var cursor = document.querySelector('.cursor');
-    var cursor2 = document.querySelector('.cursor2');
-    var links = document.querySelectorAll('a');
-
-    var editCursor = function editCursor(event) {
-      cursor.style.left = event.clientX + 'px';
-      cursor.style.top = event.clientY + 'px';
-      cursor2.style.left = event.clientX + 'px';
-      cursor2.style.top = event.clientY + 'px';
-    };
-
-    window.addEventListener('mousemove', editCursor);
-  })();
-</script>
-<!-- CURSOR - END -->
+                                          window.addEventListener('mousemove', editCursor);
+                                            })();
+                                            </script>
+                                        <!-- CURSOR - END -->

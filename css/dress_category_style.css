@@ -1,0 +1,674 @@
+/*----content 01----*/
+.text01{
+
+    font-size:220px;
+    font-weight: 400;
+    line-height: 205.65px;
+    color:white;
+    font-family:DM Serif Display;
+}
+
+
+/*----content 02----*/
+.text02{
+
+    font-size:80px;
+    font-weight: 400;
+    line-height: 95px;
+    text-align: right;
+    color: #8F6E64;
+    font-family:DM Serif Display;
+}
+
+
+/*----content 04----*/
+.text03{
+
+    font-size: 317px;
+    font-weight: 200;
+    line-height: 95px;
+    text-align: right;
+    color: #6E5752;
+    font-family:DM Serif Display;
+}
+
+
+/*----content 05----*/
+.text04{
+
+    font-size:200px;
+    font-weight: 400;
+    line-height: 95px;
+    text-align: right;
+    color: #8F6E64;
+    font-family:DM Serif Display;
+}
+
+.text05{
+
+    font-size:80px;
+    font-weight: 400;
+    line-height: 95px;
+    text-align: right;
+    color: #32363C;
+    font-family:DM Serif Display;
+}
+
+
+/*----content 06----*/
+.text06{
+
+    font-size:200px;
+    font-weight: 400;
+    line-height: 95px;
+    text-align: right;
+    color: #8F6E64;
+    font-family:DM Serif Display;
+}
+
+.text07{
+
+    font-size:80px;
+    font-weight: 400;
+    line-height: 95px;
+    text-align: right;
+    color: #32363C;
+    font-family:DM Serif Display;
+}
+
+
+/*----content 07----*/
+.text08{
+
+    font-size:200px;
+    font-weight: 400;
+    line-height: 95px;
+    text-align: right;
+    color: #8F6E64;
+    font-family:DM Serif Display;
+}
+
+.text09{
+
+    font-size:80px;
+    font-weight: 400;
+    line-height: 95px;
+    text-align: right;
+    color: #32363C;
+    font-family:DM Serif Display;
+}
+
+
+/*----content 08----*/
+.text10{
+
+    font-size:200px;
+    font-weight: 400;
+    line-height: 95px;
+    text-align: right;
+    color: #8F6E64;
+    font-family:DM Serif Display;
+}
+
+.text11{
+
+    font-size:80px;
+    font-weight: 400;
+    line-height: 95px;
+    text-align: right;
+    color: #32363C;
+    font-family:DM Serif Display;
+}
+
+
+/*----content 09----*/
+.text12{
+
+    font-size:200px;
+    font-weight: 400;
+    line-height: 95px;
+    text-align: right;
+    color: #8F6E64;
+    font-family:DM Serif Display;
+}
+
+.text13{
+
+    font-size:80px;
+    font-weight: 400;
+    line-height: 95px;
+    color: #32363C;
+    font-family:DM Serif Display;
+}
+
+
+
+/*----content 10----*/
+.text14{
+
+    font-size:200px;
+    font-weight: 400;
+    line-height: 95px;
+    text-align: right;
+    color: #8F6E64;
+    font-family:DM Serif Display;
+}
+
+.text15{
+
+    font-size:80px;
+    font-weight: 400;
+    line-height: 95px;
+    text-align: right;
+    color: #32363C;
+    font-family:DM Serif Display;
+}
+
+
+
+/*CATEGORY COMPONENT START HERE*/
+.text16{
+
+    font-size:300px;
+    font-weight: 400;
+    line-height: 95px;
+    text-align: right;
+    color: #32363C;
+    font-family:DM Serif Display;
+}
+
+.text17{
+
+    font-size:220px;
+    font-weight: 400;
+    line-height: 95px;
+    text-align: right;
+    color: white;
+    font-family:DM Serif Display;
+}
+
+
+
+/*----lines----*/
+.verticalline01 {
+  border-left: 3px solid black;
+  opacity: 40%;
+  height: 14000px;
+  position: absolute;
+  right: 8.5%;
+  top: 90%;
+  z-index: -2;
+}
+
+
+.verticalline02 {
+  border-left: 5px solid;
+  color: #32363C;
+  opacity: 100%;
+  height: 120px;
+  position: absolute;
+  left: 59.6%;
+  top: 381.5%;
+  z-index: -2;
+}
+
+
+.verticalline03 {
+  border-left: 5px solid;
+  color: #32363C;
+  opacity: 100%;
+  height: 680px;
+  position: absolute;
+  left: 28%;
+  top: 678%;
+  z-index: -2;
+}
+
+.horizontalline01 {
+  height: 4px;
+  width: 200px;
+  background-color: #32363C;
+  margin-left: 52%;
+  margin-top: 200.5%;
+  z-index: -2;
+}
+
+.verticalline04 {
+  border-left: 5px solid;
+  color: #32363C;
+  opacity: 100%;
+  height: 150px;
+  position: absolute;
+  left: 28%;
+  top: 1220%;;
+  z-index: -2;
+}
+
+.verticalline05 {
+  border-left: 5px solid;
+  color: #32363C;
+  opacity: 100%;
+  height: 1070px;
+  position: absolute;
+  left: 73.1%;
+  top: 155%;;
+  z-index: -2;
+}
+
+.verticalline06 {
+  border-left: 5px solid;
+  color: #32363C;
+  opacity: 100%;
+  height: 2285px;
+  position: absolute;
+  left: 34%;
+  top: 1778%;;
+}
+
+
+
+
+
+/*----backbutton----*/
+.backbutton {
+  background-color: #8F6E64;
+  border: none;
+  color: white;
+  height: 260px;
+  width: 100%;
+  text-align: right;
+  padding-right: 120px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 180px;
+  font-family: "DM Serif Text";
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-top: 8204px;
+  z-index:-2;
+}
+
+.backbutton {
+  background-color: #8F6E64;
+  color: #E1DCD9;
+}
+
+.backbutton:hover {
+  background-color: #ADAEB1;
+  color: #E1DCD9;
+}
+
+
+
+/*---Back Icon---*/
+.material-icons{
+  font-size: 250px;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  margin-right: 70px;
+}
+
+.backicon {
+    position: absolute;
+    padding-top: 200px;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index:-2;
+
+}
+
+.backicon a {
+    display: block;
+    text-align: center;
+    transition: all 0.3s ease;
+    color: #8F6E64;
+}
+
+.backicon a:hover {
+    background-color: transparent;
+    color: #ADAEB1;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+  /*----content 01----*/
+  .text01{
+
+      font-size:60px;
+      font-weight: 400;
+      line-height: 205.65px;
+      color:white;
+      font-family:DM Serif Display;
+  }
+
+
+  /*----content 02----*/
+  .text02{
+
+      font-size:50px;
+      font-weight: 400;
+      line-height: 50px;
+      text-align: right;
+      color: #8F6E64;
+      font-family:DM Serif Display;
+  }
+
+
+  /*----content 04----*/
+  .text03{
+
+      font-size: 78px;
+      font-weight: 200;
+      line-height: 95px;
+      color: #6E5752;
+      font-family:DM Serif Display;
+  }
+
+
+  /*----content 05----*/
+  .text04{
+
+      font-size:90px;
+      font-weight: 400;
+      line-height: 95px;
+      text-align: right;
+      color: #8F6E64;
+      font-family:DM Serif Display;
+  }
+
+  .text05{
+
+      font-size:60px;
+      font-weight: 400;
+      line-height: 95px;
+      text-align: right;
+      color: #32363C;
+      font-family:DM Serif Display;
+  }
+
+
+  /*----content 06----*/
+  .text06{
+
+      font-size:90px;
+      font-weight: 400;
+      line-height: 95px;
+      text-align: right;
+      color: #8F6E64;
+      font-family:DM Serif Display;
+  }
+
+  .text07{
+
+      font-size:60px;
+      font-weight: 400;
+      line-height: 95px;
+      text-align: right;
+      color: #32363C;
+      font-family:DM Serif Display;
+  }
+
+
+  /*----content 07----*/
+  .text08{
+
+      font-size:90px;
+      font-weight: 400;
+      line-height: 95px;
+      text-align: right;
+      color: #8F6E64;
+      font-family:DM Serif Display;
+  }
+
+  .text09{
+
+      font-size:60px;
+      font-weight: 400;
+      line-height: 95px;
+      text-align: right;
+      color: #32363C;
+      font-family:DM Serif Display;
+  }
+
+
+  /*----content 08----*/
+  .text10{
+
+      font-size:90px;
+      font-weight: 400;
+      line-height: 95px;
+      text-align: right;
+      color: #8F6E64;
+      font-family:DM Serif Display;
+  }
+
+  .text11{
+
+      font-size:60px;
+      font-weight: 400;
+      line-height: 95px;
+      text-align: right;
+      color: #32363C;
+      font-family:DM Serif Display;
+  }
+
+
+  /*----content 09----*/
+  .text12{
+
+      font-size:90px;
+      font-weight: 400;
+      line-height: 95px;
+      text-align: right;
+      color: #8F6E64;
+      font-family:DM Serif Display;
+  }
+
+  .text13{
+
+      font-size:60px;
+      font-weight: 400;
+      line-height: 60px;
+      text-align: right;
+      color: #32363C;
+      font-family:DM Serif Display;
+  }
+
+
+
+  /*----content 10----*/
+  .text14{
+
+      font-size:90px;
+      font-weight: 400;
+      line-height: 95px;
+      text-align: right;
+      color: #8F6E64;
+      font-family:DM Serif Display;
+  }
+
+  .text15{
+
+      font-size:60px;
+      font-weight: 400;
+      line-height: 95px;
+      text-align: right;
+      color: #32363C;
+      font-family:DM Serif Display;
+  }
+
+
+  /*CATEGORY COMPONENT START HERE*/
+  .text16{
+
+      font-size:100px;
+      font-weight: 400;
+      line-height: 95px;
+      text-align: right;
+      color: #32363C;
+      font-family:DM Serif Display;
+  }
+
+  .text17{
+
+      font-size:50px;
+      font-weight: 400;
+      line-height: 95px;
+      text-align: right;
+      color: white;
+      font-family:DM Serif Display;
+  }
+
+
+
+
+  /*----lines----*/
+  .verticalline01 {
+    border-left: 2px solid black;
+    opacity: 40%;
+    height: 7000px;
+    position: absolute;
+    right: 8.5%;
+    top: 30%;
+    z-index: -2;
+  }
+
+
+  .verticalline02 {
+    border-left: 4px solid;
+    color: #32363C;
+    opacity: 100%;
+    height: 50px;
+    position: absolute;
+    left: 80%;
+    top: 144%;
+    z-index: -2;
+  }
+
+
+  .verticalline03 {
+    border-left: 4px solid;
+    color: #32363C;
+    opacity: 100%;
+    height: 50px;
+    position: absolute;
+    left: 80%;
+    top: 253%;
+    z-index: -2;
+  }
+
+  .horizontalline01 {
+    height: 4px;
+    width: 150px;
+    background-color: #32363C;
+    margin-left: 44%;
+    margin-top: 495%;
+    z-index: -2;
+  }
+
+  .verticalline04 {
+    border-left: 5px solid;
+    color: #32363C;
+    opacity: 100%;
+    height: 50px;
+    position: absolute;
+    left: 80%;
+    top: 508%;;
+    z-index: -2;
+  }
+
+  .verticalline05 {
+    border-left: 4px solid;
+    color: #32363C;
+    opacity: 100%;
+    height: 50px;
+    position: absolute;
+    left: 76%;
+    top: 610%;;
+    z-index: -2;
+  }
+
+  .verticalline06 {
+    border-left: 4px solid;
+    color: #32363C;
+    opacity: 100%;
+    height: 50px;
+    position: absolute;
+    left: 76%;
+    top: 758%;;
+  }
+
+
+
+
+    /*----backbutton----*/
+    .backbutton {
+      background-color: #8F6E64;
+      border: none;
+      color: white;
+      height: 100px;
+      width: 100%;
+      text-align: right;
+      padding-right: 60px;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 60px;
+      font-family: "DM Serif Text";
+      transition-duration: 0.4s;
+      cursor: pointer;
+      margin-top: 3502px;
+      z-index:-2;
+    }
+
+    .backbutton {
+      background-color: #8F6E64;
+      color: #E1DCD9;
+    }
+
+    .backbutton:hover {
+      background-color: #ADAEB1;
+      color: #E1DCD9;
+    }
+
+
+
+    /*---Back Icon---*/
+    .material-icons{
+      font-size: 100px;
+      margin-top: 20px;
+      margin-bottom: 100px;
+      margin-right: 40px;
+    }
+
+    .backicon {
+        position: absolute;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        z-index:-2;
+
+    }
+
+    .backicon a {
+        display: block;
+        text-align: center;
+        transition: all 0.3s ease;
+        color: #8F6E64;
+    }
+
+    .backicon a:hover {
+        background-color: transparent;
+        color: #ADAEB1;
+    }
+
+
+}
