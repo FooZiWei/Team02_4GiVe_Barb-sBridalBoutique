@@ -166,7 +166,6 @@ section {
   z-index: 1;
 }
 
-
 .text02 {
   position: absolute;
   height: 100px;
@@ -207,15 +206,13 @@ section {
   top: 115vw;
 }
 
-
 /*-------Content 2------*/
 .text07 {
-  height: 10  0px;
+  height: 10 0px;
   width: 400px;
   margin-left: 30vw;
   top: 0vw;
   z-index: 1;
-
 }
 
 .text08 {
@@ -225,7 +222,6 @@ section {
   top: 10vw;
   z-index: 1;
 }
-
 
 /*-------Content 3------*/
 .text09 {
@@ -257,7 +253,7 @@ section {
 
 .text12 {
   position: absolute;
-  height:80px;
+  height: 80px;
   width: 200px;
   left: 68vw;
   top: 220vw;
@@ -347,9 +343,6 @@ section {
   z-index: 1;
 }
 
-
-
-
 .row>* {
   padding: 0;
 }
@@ -358,16 +351,13 @@ section {
   height: 800px;
 }
 
-.row-content{
+.row-content {
   height: 2000px;
 }
 
-.row-content2{
+.row-content2 {
   height: 0px;
 }
-
-
-
 
 /*--------IMAGES---------*/
 /*-------Content 1------*/
@@ -387,9 +377,7 @@ section {
   height: auto;
   top: 50vw;
   padding: 0;
-
 }
-
 
 /*-------Content 3------*/
 .image03 {
@@ -398,7 +386,6 @@ section {
   height: auto;
   margin-left: 25%;
   top: 0vw;
-
 }
 
 .image04 {
@@ -407,7 +394,6 @@ section {
   height: auto;
   margin-left: 55%;
   top: -25vw;
-
 }
 
 /*-------Content 4------*/
@@ -417,13 +403,6 @@ section {
   margin-left: 50%;
   top: 0vw;
 }
-
-
-
-
-
-
-
 
 /*------Cursor------*/
 .cursor {
@@ -540,153 +519,211 @@ section {
     height: 100px;
   }
 
-
-  .row-content{
-    height: 860px;
+  .row-content {
+    height: 759px;
   }
 
-  .row-others{
-    height: 62px;
+  .row-content2 {
+    height: 0px;
   }
-
-
-  .row-category-component{
-    height: 102px;
-  }
-
 
   /*---------TEXT-------*/
   /*-------Content 1------*/
   .text01 {
     position: absolute;
-    height: 70px;
-    width: 100px;
-    right: 90%;
-    top: 0vw;
-    border: 1px solid black;
+    height: 100px;
+    margin-left: 68vw;
+    top: 45vw;
+    z-index: 1;
   }
 
-  /*-------Content 2------*/
   .text02 {
     position: absolute;
-    height: 70px;
-    width: 90px;
-    left: 61.5vw;
-    top: 125vw;
+    height: 100px;
+    width: 200px;
+    left: 34vw;
+    top: 170vw;
   }
 
   .text03 {
     position: absolute;
-    height: 80px;
-    width: 80px;
-    left: 58vw;
-    top: 190vw;
+    height: 40px;
+    width: 200px;
+    left: 34vw;
+    top: 184vw;
   }
 
   .text04 {
     position: absolute;
-    height: 60px;
-    width: 140px;
-    left: 59vw;
-    top: 190vw;
+    height: 100px;
+    width: 200px;
+    left: 34vw;
+    top: 205vw;
   }
 
   .text05 {
     position: absolute;
-    height: 80px;
-    width: 80px;
-    left: 49vw;
-    top: 206vw;
+    height: 100px;
+    width: 250px;
+    left: 34vw;
+    top: 215vw;
   }
 
   .text06 {
     position: absolute;
-    height: 80px;
-    width: 140px;
-    left: 53.5vw;
-    top: 214vw;
+    height: 100px;
+    width: 200px;
+    left: 34vw;
+    top: 222vw;
   }
 
-
-  /*-------Content 3------*/
+  /*-------Content 2------*/
   .text07 {
     position: absolute;
-    height: 80px;
-    width: 90px;
-    right: 10vw;
-    top: 292vw;
+    height: 70px;
+    width: 200px;
+    margin-left: 22vw;
+    top: 265vw;
     z-index: 1;
   }
 
   .text08 {
     position: absolute;
-    height: 170px;
-    width: 140px;
-    left: 10vw;
-    top: 255vw;
+    height: 50px;
+    width: 300px;
+    margin-left: 28vw;
+    top: 283vw;
     z-index: 1;
   }
 
-  /*-------Content 4------*/
+  /*-------Content 3------*/
   .text09 {
     position: absolute;
-    height: 90px;
-    width: 100px;
-    left: 44vw;
-    top: 500vw;
+    height: 80px;
+    width: 80px;
+    left: 41.5vw;
+    top: 360vw;
     z-index: 1;
   }
 
   .text10 {
     position: absolute;
-    height: 100px;
-    width: 100px;
-    left: 60vw;
-    top: 650vw;
+    height: 80px;
+    width: 150px;
+    left: 54vw;
+    top: 360vw;
     z-index: 1;
   }
 
   .text11 {
     position: absolute;
     height: 60px;
-    width: 80px;
-    right: 40vw;
-    top: 658vw;
+    width: 130px;
+    left: 62vw;
+    top: 375vw;
     z-index: 1;
   }
 
+  .text12 {
+    position: absolute;
+    height: 80px;
+    width: 100px;
+    left: 73vw;
+    top: 376vw;
+    z-index: 1;
+  }
 
+  /*-------Content 4------*/
+  .text13 {
+    position: absolute;
+    height: 80px;
+    width: 200px;
+    left: 30vw;
+    top: 575vw;
+    z-index: 1;
+  }
 
-  /*CATEGORY COMPONENT START HERE*/
-  /*-------Content 11------*/
-  .text16 {
-    position: relative;
-    height: 100px;
+  .text14 {
+    position: absolute;
+    height: 120px;
     width: 300px;
-    left: 12%;
-    top: 0%;
-    z-index:-2;
+    left: 32vw;
+    top: 590vw;
+    z-index: 1;
+  }
+
+  .text15 {
+    position: absolute;
+    height: 80px;
+    width: 200px;
+    left: 30vw;
+    top: 610vw;
+    z-index: 1;
+  }
+
+  .text16 {
+    position: absolute;
+    height: 80px;
+    width: 200px;
+    left: 40vw;
+    top: 610vw;
+    z-index: 1;
   }
 
   .text17 {
     position: absolute;
-    height: 167px;
-    margin-left: 40px;
-    padding-top: 2.5vw;
+    height: 80px;
+    width: 200px;
+    left: 32vw;
+    top: 625vw;
+    z-index: 1;
   }
 
+  /*-------Content 5------*/
+  .text18 {
+    position: absolute;
+    height: 40px;
+    width: 200px;
+    left: 15vw;
+    top: 660vw;
+    z-index: 1;
+  }
 
+  .text19 {
+    position: absolute;
+    height: 20px;
+    width: 180px;
+    left: 15vw;
+    top: 675vw;
+    z-index: 1;
+  }
 
+  .text20 {
+    position: absolute;
+    height: 50px;
+    width: 130px;
+    left: 16.5vw;
+    top: 700vw;
+    z-index: 1;
+  }
 
-
-
+  .text21 {
+    position: absolute;
+    height: 40px;
+    width: 130px;
+    left: 27vw;
+    top: 770vw;
+    z-index: 1;
+  }
 
   /*--------IMAGES---------*/
   /*-------Content 1------*/
   .image01 {
-    width: 100%;
+    position: relative;
+    width: 70%;
     height: auto;
-    top: 12vw;
+    top: 10vw;
+    left: 16vw;
     padding: 0;
   }
 
@@ -695,52 +732,36 @@ section {
     position: relative;
     width: 70%;
     height: auto;
-    top: 50vw;
+    top: 65vw;
+    left: 22vw;
     padding: 0;
-
   }
 
   /*-------Content 3------*/
   .image03 {
     position: relative;
-    width: 70%;
+    width: 50%;
     height: auto;
-    left: 33.5vw;
-    top: 20vw;
-
+    margin-left: 12%;
+    top: -20vw;
   }
-
 
   .image04 {
     position: relative;
     width: 50%;
     height: auto;
-    left: 10vw;
-    top: 0vw;
-    padding: 0;
-
+    margin-left: 40%;
+    top: -55vw;
   }
 
   /*-------Content 4------*/
   .image05 {
     position: relative;
-    width: 70%;
+    width: 60%;
     height: auto;
-    left: 0vw;
-    top: 0vw;
-    padding: 0;
-
+    margin-left: 39.9%;
+    top: 40vw;
   }
-
-
-  /*CATEGORY COMPONENT START HERE*/
-  /*-------Content 11------*/
-  .image09 {
-    width: 100%;
-    height: auto;
-    padding-top: 0px;
-  }
-
 
   .cursor {
     visibility: hidden;
@@ -749,6 +770,4 @@ section {
   .cursor2 {
     visibility: hidden;
   }
-
-
 }

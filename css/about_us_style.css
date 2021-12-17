@@ -35,6 +35,7 @@
     padding-right: 20%;
     padding-bottom: 1%;
     transition: left .8s cubic-bezier(1,0,0,1);
+    z-index: 4;
 }
 
 .navbar:hover {
@@ -70,7 +71,7 @@
        flex-direction: column;
        justify-content: space-around;
   }
-} 
+}
 
 .line {
     width: 100%;
@@ -101,15 +102,15 @@
         background-color: black;
         transition: all 0.8s;
       }
-    
+
       .change .line-1 {
         transform: rotateZ(-405deg) translate(-10px, 7px);
       }
-    
+
       .change .line-2 {
         opacity: 0;
       }
-    
+
       .change .line-3 {
         transform: rotateZ(405deg) translate(-10px, -7px);
       }
@@ -1472,7 +1473,7 @@
     margin-block-start: 0.4em;
     margin-block-end: 0em;
     margin-inline-start: 0px;
-    margin-inline-end: 0px; 
+    margin-inline-end: 0px;
 }
 
 .phone {
@@ -1487,7 +1488,7 @@
     margin-block-start: 0.1em;
     margin-block-end: 0em;
     margin-inline-start: 0px;
-    margin-inline-end: 0px; 
+    margin-inline-end: 0px;
 }
 
 .bifacebook {
@@ -1670,7 +1671,7 @@
     transform: translate3d(-50%,-50%,0);
     top: 0;
     left: 0;
-    z-index: 2;
+    z-index: 5;
     background-color: white;
     pointer-events: none;
 }
@@ -1684,7 +1685,7 @@
     transform: translate3d(-50%,-50%,0);
     top: 0;
     left: 0;
-    z-index: 2;
+    z-index: 5;
     pointer-events: none;
     transition: 0.1s ease-out;
 }
