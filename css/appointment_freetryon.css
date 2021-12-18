@@ -259,6 +259,20 @@
     margin-inline-end: 0px;
 }
 
+.line01 {
+    color:#8f6e64;
+    max-width:7%;
+    height: 3px;
+    margin-top: 16.5%;
+}
+.line02 {
+    color:#8f6e64;
+    max-width:100%;
+    height: 3px;
+    margin-left: 45%;
+    margin-top: 15%;
+}
+
 @media screen and (max-width: 425px) {
     .header01 {
         font-size: 12vw;
@@ -266,6 +280,12 @@
         padding-right: 40%;
         margin-block-start: 3em;
         margin-block-end: 1em;
+    }
+    .line01 {
+        color: transparent;
+    }
+    .line02 {
+        color: transparent;
     }
 }
 
@@ -397,7 +417,7 @@
     border-radius: 50%;
     display: block;
     margin-left: 53.5%;
-    margin-block-start: 2.7em;
+    margin-block-start: 3em;
     margin-block-end: 0em;
 }
 
@@ -433,6 +453,40 @@
     color: white;
     border: 2px solid white;
     background: #8f6e64;
+}
+
+.line03 {
+    color:black;
+    max-width:31%;
+    height: 3px;
+    margin-left: 48%;
+    margin-top: 6%;
+}
+.line04 {
+    position: absolute;
+    color:#8f6e64;
+    max-width:4%;
+    height: 3px;
+    margin-left: 80%;
+    margin-block-start: 1.5em
+}
+
+.trash {
+    position: absolute;
+    color:#8f6e64;
+    display:block;
+    font-size: 2.3vw;
+    padding-left: 85%;
+    z-index: 1;
+    margin-block-start: 0em;
+}
+
+.tag {
+    display:block;
+    font-size: 2.3vw;
+    padding-left: 53%;
+    z-index: 1;
+    margin-block-start: 6.5em
 }
 
 @media screen and (max-width: 425px) {
@@ -488,7 +542,7 @@
         width: 15px;
         border-radius: 50%;
         margin-left: 53.5%;
-        margin-block-start: 10em;
+        margin-block-start: 0.3em;
         margin-block-end: 0em;
     }
     .dot02 {
@@ -528,12 +582,21 @@
         margin-inline-start: 0px;
         margin-inline-end: 0px;
     }
+    .line03 {
+        color: transparent;
+    }
+    .line04 {
+        color: transparent;
+    }
+    .trash {
+        margin-block-start: 1.4em;
+    }
+    .tag {
+        margin-block-start: 24.8em;
+        padding-left: 54.5%;
+    }
     
 }
-
-
-
-
 
 
 /*-------Cursor------*/

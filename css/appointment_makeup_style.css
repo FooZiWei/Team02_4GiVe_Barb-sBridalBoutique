@@ -259,13 +259,32 @@
     margin-inline-end: 0px;
 }
 
+.line01 {
+    color:#8f6e64;
+    max-width:7%;
+    height: 3px;
+    margin-top: 16.5%;
+}
+.line02 {
+    color:#8f6e64;
+    max-width:100%;height: 3px;
+    margin-left: 55%;
+    margin-top: 15%;
+}
+
 @media screen and (max-width: 425px) {
     .header01 {
-        font-size: 12vw;
+        font-size: 10vw;
         left: 12%;
         padding-right: 40%;
-        margin-block-start: 3em;
+        margin-block-start: 2em;
         margin-block-end: 1em;
+    }
+    .line01 {
+        color: transparent;
+    }
+    .line02 {
+        color: transparent;
     }
 }
 
@@ -432,7 +451,7 @@
     margin-inline-end: 0px;  
 }
 
-.btn {
+.btn01 {
     display: block;
     font-family: "DM Serif Text";
     border: 2px solid #8f6e64;
@@ -454,8 +473,102 @@
     background: #8f6e64;
 }
 
+@media screen and (max-width: 425px) {
+    .image01 {
+        z-index:1;
+        left: 9%;
+        max-width: 30%;
+        height: auto;
+        margin-block-start: 1em;
+        margin-block-end: 0em;
+    }
+    .header02 {
+        font-size: 3.5vw;
+        left: 44.5%;
+        margin-block-start: 2em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    .description01 {
+        font-size: 2.5vw;
+        left: 45%;
+        padding-right: 10%;
+        margin-block-start: 6em;
+        margin-block-end: 0em;
+    }
+    .description02 {
+        font-size: 2.5vw;
+        position: absolute;
+        left: 45%;
+        padding-right: 10%;
+        margin-block-start: 12em;
+        margin-block-end: 0em;
+    }
+    .header03 {
+        left: 18%;
+        margin-block-start: 4.5em;
+        margin-block-end: 1em;
+    }
+    .header04 {
+        left: 39%;
+        margin-block-start: 4.5em;
+        margin-block-end: 1em;
+    }
+    .header05 {
+        left: 11%;
+        margin-block-start: 5.4em;
+        margin-block-end: 1em;
+    }
+    .header06 {
+        font-size: 2.3vw;
+        letter-spacing: 3px;
+        left: 9%;
+        margin-block-start: 28em;
+        margin-block-end: 0em;
+    }
+    .header07 {
+        font-size: 2.3vw;
+        letter-spacing: 3px;
+        left: 9%;
+        margin-block-start: 29.5em;
+        margin-block-end: 0em;
+    }
+    .price01 {
+        font-size: 2.5vw;
+        left: 80%;
+        margin-block-start: 22em;
+        margin-block-end: 0em;
+    }
+    .price02 {
+        font-size: 2.2vw;
+        letter-spacing: 1px;
+        left: 80%;
+        z-index:1;
+        margin-block-start: 26.5em;
+        margin-block-end: 0em;
+    }
+    .btn01 {
+        border: 2px solid #8f6e64;
+        color: #8f6e64;
+        background-color: transparent;
+        width: 50vw;
+        height: 9vw;
+        font-size: 4vw;
+        left: 25%;
+        margin-block-start: 18.5em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    .btn:hover {
+       display: none;
+    }
+}
 
-/*-------Content 02------*/
+
+
+/*-------Content 03------*/
 
 .image02 {
     display: block;
@@ -468,4 +581,295 @@
     margin-block-end: 0em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+}
+
+.header08 {
+    display: block;
+    color:#8f6e64;
+    font-size: 2.5vw;
+    position: absolute;
+    font-family: "DM Serif Text";
+    z-index:1;
+    left: 42%;
+    margin-block-start: 1em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.description03 {
+    display: block;
+    color:#32363C;
+    font-size: 2vw;
+    position: absolute;
+    font-family: "DM Serif Text";
+    z-index:1;
+    left: 50%;
+    padding-right: 10%;
+    margin-block-start: 4em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.description04 {
+    display: block;
+    color:#32363C;
+    font-size: 2vw;
+    position: absolute;
+    font-family: "DM Serif Text";
+    z-index:1;
+    left: 50%;
+    padding-right: 10%;
+    margin-block-start: 14em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.header09 {
+    display: block;
+    color:white;
+    font-size: 10vw;
+    position: absolute;
+    font-family: "DM Serif Display";
+    z-index:1;
+    left: 10%;
+    margin-block-start: 4em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.header10 {
+    display: block;
+    color:white;
+    font-size: 10vw;
+    position: absolute;
+    font-family: "DM Serif Display";
+    z-index:1;
+    left: 30%;
+    margin-block-start: 4.96em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.header11 {
+    display: block;
+    color:#8f6e64;
+    font-size: 10vw;
+    position: absolute;
+    font-family: "DM Serif Display";
+    z-index:1;
+    left: 39%;
+    margin-block-start: 4.96em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.header12 {
+    display: block;
+    color:black;
+    font-size: 1.6vw;
+    font-weight: 100;
+    letter-spacing: 6px;
+    position: absolute;
+    font-family: "DM Sans";
+    z-index:1;
+    left: 9%;
+    margin-block-start: 37.5em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;  
+}
+
+.header13 {
+    display: block;
+    color:black;
+    font-size: 1.6vw;
+    font-weight: 100;
+    letter-spacing: 6px;
+    position: absolute;
+    font-family: "DM Sans";
+    z-index:1;
+    left: 9%;
+    margin-block-start: 38.8em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;  
+}
+
+.price03 {
+    display: block;
+    color:#32363C;
+    font-size: 2vw;
+    position: absolute;
+    font-weight: 400;
+    font-family: "DM Serif Text";
+    z-index:1;
+    left: 82%;
+    margin-block-start: 27em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.price04 {
+    display: block;
+    color:black;
+    font-size: 1.6vw;
+    font-weight: 100;
+    letter-spacing: 6px;
+    position: absolute;
+    font-family: "DM Sans";
+    left: 80.5%;
+    z-index:1;
+    margin-block-start: 35.3em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;  
+}
+
+.btn02 {
+    display: block;
+    font-family: "DM Serif Text";
+    border: 2px solid #8f6e64;
+    color: #8f6e64;
+    width: 25vw;
+    height: 4vw;
+    font-size: 1.8vw;
+    position: absolute;
+    left: 65%;
+    margin-block-start: 34em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.btn:hover {
+    color: white;
+    border: 2px solid white;
+    background: #8f6e64;
+}
+
+@media screen and (max-width: 425px) {
+    .image02 {
+        margin-block-start: 2em;
+        margin-block-end: 0em;
+    }
+    .header08 {
+        display: block;
+        color:#8f6e64;
+        font-size: 3vw;
+        position: absolute;
+        font-family: "DM Serif Text";
+        z-index:1;
+        left: 45%;
+        margin-block-start: 3em;
+        margin-block-end: 0em;
+    }
+    .header12 {
+        font-size: 2.3vw;
+        letter-spacing: 3px;
+        left: 9%;
+        margin-block-start: 28em;
+        margin-block-end: 0em;
+    }
+    .header13 {
+        font-size: 2.3vw;
+        letter-spacing: 3px;
+        left: 9%;
+        margin-block-start: 29.5em;
+        margin-block-end: 0em;
+    }
+    .description03 {
+        font-size: 2.5vw;
+        position: absolute;
+        font-family: "DM Serif Text";
+        z-index:1;
+        left: 45%;
+        padding-right: 10%;
+        margin-block-start: 6em;
+        margin-block-end: 0em;
+    }
+    .description04 {
+        font-size: 2.5vw;
+        position: absolute;
+        font-family: "DM Serif Text";
+        z-index:1;
+        left: 42%;
+        font-size: 2.5vw;
+        position: absolute;
+        font-family: "DM Serif Text";
+        z-index:1;
+        left: 45%;
+        padding-right: 10%;
+        margin-block-start: 12em;
+        margin-block-end: 0em;
+        padding-right: 10%;
+    }
+    .price03 {
+        font-size: 2.5vw;
+        left: 80%;
+        margin-block-start: 24em;
+        margin-block-end: 0em;
+    }
+    .price04 {
+        font-size: 2.2vw;
+        letter-spacing: 1px;
+        left: 80%;
+        z-index:1;
+        margin-block-start: 28.5em;
+        margin-block-end: 0em;
+    }
+    .btn02 {
+        width: 50vw;
+        height: 9vw;
+        font-size: 4vw;
+        left: 25%;
+        background-color: transparent;
+        margin-block-start: 18em;
+        margin-block-end: 0em;
+    }
+}
+
+/*-------Cursor------*/
+.cursor{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    transform: translate3d(-50%,-50%,0);
+    top: 0;
+    left: 0;
+    background-color: white;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.cursor2{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: fixed;
+    transform: translate3d(-50%,-50%,0);
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    transition: 0.1s ease-out;
+    z-index: 2;
+}
+
+@media screen and (max-width: 768px) {
+    div.cursor{
+      display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    div.cursor2{
+      display: none;
+    }
 }
